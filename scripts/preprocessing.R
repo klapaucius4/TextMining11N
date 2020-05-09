@@ -63,3 +63,6 @@ pasteParagraphs <- content_transformer(function(text, char) paste(text, collapse
 corpus <- tm_map(corpus, pasteParagraphs, " ")
 
 
+
+
+
